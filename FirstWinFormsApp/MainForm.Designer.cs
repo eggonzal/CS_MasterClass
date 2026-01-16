@@ -135,7 +135,7 @@
             Controls.Add(PrecisionRequiredCheckBox);
             Controls.Add(IntegralOnlyCheckBox);
             Name = "MainForm";
-            Text = "Our First App";
+            Text = "C# Numeric Types";
             Load += MainForm_Load;
             ResumeLayout(false);
             PerformLayout();
