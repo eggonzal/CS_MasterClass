@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsDataAggregator", "Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSTypesWinFormsApp", "CSTypesWinFormsApp\CSTypesWinFormsApp.csproj", "{2DEF440F-DDA9-9B1C-71F4-71608CA7E4D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14. Assignment - Fibonacci Generator Unit Tests", "14. Assignment - Fibonacci Generator Unit Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciGenerator", "FibonacciGenerator\FibonacciGenerator.csproj", "{FAEFB68E-67AD-4C2E-AF33-F4FB57081F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciGeneratorTests", "FibonacciGeneratorTests\FibonacciGeneratorTests.csproj", "{976655DD-886A-45DE-88FB-24BA0708B39B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,9 +69,21 @@ Global
 		{2DEF440F-DDA9-9B1C-71F4-71608CA7E4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DEF440F-DDA9-9B1C-71F4-71608CA7E4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DEF440F-DDA9-9B1C-71F4-71608CA7E4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEFB68E-67AD-4C2E-AF33-F4FB57081F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEFB68E-67AD-4C2E-AF33-F4FB57081F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEFB68E-67AD-4C2E-AF33-F4FB57081F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEFB68E-67AD-4C2E-AF33-F4FB57081F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976655DD-886A-45DE-88FB-24BA0708B39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976655DD-886A-45DE-88FB-24BA0708B39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976655DD-886A-45DE-88FB-24BA0708B39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976655DD-886A-45DE-88FB-24BA0708B39B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAEFB68E-67AD-4C2E-AF33-F4FB57081F4A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{976655DD-886A-45DE-88FB-24BA0708B39B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBE859E6-83E1-4703-9D86-CB6E1F71D25A}
