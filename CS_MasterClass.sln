@@ -27,6 +27,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciGenerator", "Fibon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciGeneratorTests", "FibonacciGeneratorTests\FibonacciGeneratorTests.csproj", "{976655DD-886A-45DE-88FB-24BA0708B39B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. Assignment - Guessing Game Unit Tests", "15. Assignment - Guessing Game Unit Tests", "{C3B3D47D-5FF9-4BC2-B95A-3E7D756C1A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_DiceRollGameToBeTested", "14_DiceRollGameToBeTested\14_DiceRollGameToBeTested.csproj", "{B8878734-5669-0837-85E5-ACAC9EC538C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_DiceRollGameToBeTestedTests", "14_DiceRollGameToBeTestedTests\14_DiceRollGameToBeTestedTests.csproj", "{493C624B-D938-48C1-B0D4-E6731B91BBB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD1BD16A-ED40-436B-BBAD-FEF064F616F6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16. Assignment - Password Generator Refactoring", "16. Assignment - Password Generator Refactoring", "{1DDE6F34-399D-4A8E-99B7-892EC9FED3E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerator", "PasswordGenerator\PasswordGenerator.csproj", "{A878940B-C27E-4040-8055-811EFB50EA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGeneratorTests", "PasswordGeneratorTests\PasswordGeneratorTests.csproj", "{7271EB62-193E-4B0A-9FE7-8E3A617F24A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +94,22 @@ Global
 		{976655DD-886A-45DE-88FB-24BA0708B39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976655DD-886A-45DE-88FB-24BA0708B39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976655DD-886A-45DE-88FB-24BA0708B39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8878734-5669-0837-85E5-ACAC9EC538C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8878734-5669-0837-85E5-ACAC9EC538C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8878734-5669-0837-85E5-ACAC9EC538C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8878734-5669-0837-85E5-ACAC9EC538C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493C624B-D938-48C1-B0D4-E6731B91BBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493C624B-D938-48C1-B0D4-E6731B91BBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493C624B-D938-48C1-B0D4-E6731B91BBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493C624B-D938-48C1-B0D4-E6731B91BBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A878940B-C27E-4040-8055-811EFB50EA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A878940B-C27E-4040-8055-811EFB50EA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A878940B-C27E-4040-8055-811EFB50EA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A878940B-C27E-4040-8055-811EFB50EA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7271EB62-193E-4B0A-9FE7-8E3A617F24A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7271EB62-193E-4B0A-9FE7-8E3A617F24A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7271EB62-193E-4B0A-9FE7-8E3A617F24A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7271EB62-193E-4B0A-9FE7-8E3A617F24A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +117,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FAEFB68E-67AD-4C2E-AF33-F4FB57081F4A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{976655DD-886A-45DE-88FB-24BA0708B39B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B8878734-5669-0837-85E5-ACAC9EC538C0} = {C3B3D47D-5FF9-4BC2-B95A-3E7D756C1A45}
+		{493C624B-D938-48C1-B0D4-E6731B91BBB2} = {C3B3D47D-5FF9-4BC2-B95A-3E7D756C1A45}
+		{A878940B-C27E-4040-8055-811EFB50EA9C} = {1DDE6F34-399D-4A8E-99B7-892EC9FED3E4}
+		{7271EB62-193E-4B0A-9FE7-8E3A617F24A7} = {1DDE6F34-399D-4A8E-99B7-892EC9FED3E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBE859E6-83E1-4703-9D86-CB6E1F71D25A}

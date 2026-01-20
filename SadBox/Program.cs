@@ -1,12 +1,14 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
+
+
 var baseAddress = "https://api.datausa.io/tesseract/";
 var requestUri = "data.jsonrecords?cube=acs_yg_total_population_5&measures=Population&drilldowns=Nation,Year";
 var reader = new ApiDataReader();
 var data = await reader.Read(baseAddress, requestUri);
 var root = JsonSerializer.Deserialize<Root>(data);
-foreach(var yearlyData in root!.data)
+foreach (var yearlyData in root!.data)
 {
     Console.WriteLine($"Year: {yearlyData.Year}, Population: {yearlyData.Population}");
 }
@@ -57,4 +59,3 @@ public record Root(
     [property: JsonPropertyName("columns")] IReadOnlyList<string> columns,
     [property: JsonPropertyName("data")] IReadOnlyList<Datum> data
 );
-
