@@ -36,8 +36,9 @@ using QuoteFinder.Services;
 var userInteractor = new ConsoleUserInteractor();
 var inputValidator = new InputValidator();
 var userInputService = new UserInputService(userInteractor, inputValidator);
-IQuotesProvider quotesProvider = new QuotesProvider(new MockQuotesApiDataReader());
+var quotesProvider = new QuotesProvider(new MockQuotesApiDataReader());
+var quotesProcessor = new QuotesProcessor();
 
 // Create and run the app
-var app = new QuoteFinderApp(userInputService, quotesProvider);
+var app = new QuoteFinderApp(userInputService, quotesProvider, quotesProcessor, userInteractor);
 app.Run();

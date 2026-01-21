@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace QuoteFinder.Models;
+namespace QuoteFinder.DTOs;
 
 [ExcludeFromCodeCoverage]
 public class Pagination

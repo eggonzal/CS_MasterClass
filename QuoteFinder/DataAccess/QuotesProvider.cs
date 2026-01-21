@@ -1,5 +1,6 @@
 
 using QuoteFinder.DataAccess.Mock;
+using QuoteFinder.DTOs;
 using QuoteFinder.Models;
 using System.Text.Json;
 

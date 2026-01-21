@@ -1,4 +1,4 @@
-﻿using QuoteFinder.Models;
+﻿using QuoteFinder.DTOs;
 using System.Diagnostics.CodeAnalysis;
 using System.Text.Json;
 
